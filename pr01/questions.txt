@@ -1,0 +1,22 @@
+Küsimused teenuse kohta
+
+1. Mis on teenuse/toote eesmärk, millega on tegu ning miks see vajalik on, mis seal teha saab?
+
+Eesmärk on kergelt trackida Guild Wars 2 mängusiseseid investeeringuid, saab panna investeeringuid sisse ja jälgida nende käiku.
+
+2. Kellele see mõeldud on, kes seda teenust/toodet vajab? Miks?
+
+Mõeldud on Guild Wars 2 mängijatele, kes tahavad kerget ja ligipääsetavat viisi enda investeeringute jälgimiseks ilma et peaks ise spreadsheete kokku klopsima.
+
+3. Kes see inimene olla võiks? Mis on tema huvi seda kasutada?
+
+See inimene oleks Guild Wars 2 mängija, kellel on huvi või kes juba investeerib mängusiseselt. Kasutada seepärast, et UI on kena ja lihtne ja funktsioaalsus lihtsastikasutatav ja intuitiivne.
+
+4. On sellele ideel ka äriline eesmärk? Milline on mudel?
+
+Äriline eesmärk puudub, puhtalt lihtsalt kingitus Guild Wars 2 communityle.
+
+5. Millist funktsionaalsust keskkond sisaldab (ostuprotsess, pangalinkidega maksmine, tellimine, toodete filtreerimine, blogi jne)?
+
+Funktsionaalsuse poolest on võimalik kasutajal sisse logida, otsida (ja filtreerida) kindlaid esemeid ilma sisse logimata ja näha nende hinnaajalugu. Sisselogitud kasutajal on ka võimalik valitud ese kohe sealt lehelt lisada oma investeeringute hulka (valib koguse ja hinna, millega ta ostis) või siis seda teha investeeringute lehelt. Investeeringute lehel on võimalik võtta lahti graaf, mis näitab selle investeeringu Return On Investmenti graafi. Saab ka investeeringud "maha müüa" kindla hinna juures ning näha investeeringute ajalugu ja month by month tulu mahamüüdud investeeringute baasil.
+
