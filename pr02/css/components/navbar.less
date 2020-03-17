@@ -1,0 +1,30 @@
+@min-sm: 576px;
+@min-md: 768px;
+@min-lg: 992px;
+@min-xl: 1200px;
+
+@max-xs: 575.98px;
+@max-sm: 767.98px;
+@max-md: 991.98px;
+@max-lg: 1199.98px;
+
+
+@media (max-width: @max-sm) {
+  .navbar-nav--fullscreen {
+    height: calc(100vh - 50px);
+  }
+}
+
+@media (min-width: @min-md) {
+  .navbar-nav--abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%
+  }
+}
+
+.navbar__img {
+  width: 32px;
+  height: 32px;
+}
