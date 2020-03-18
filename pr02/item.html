@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Home page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-dark" onload="makeTableScroll();">
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#">Site title</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+	        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav navbar-nav--fullscreen navbar-nav--abs-center-x d-flex justify-content-center align-items-center">
+			<li class="nav-item my-3 active mt-auto">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Home
+					<span class="sr-only">(current)</span>
+				</a>
+			</li>
+			<li class="nav-item my-3 align-bottom">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Trade Post
+				</a>
+			</li>
+			<li class="nav-item my-3">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Investments
+				</a>
+			</li>
+			<li class="nav-item my-3">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Past Investments
+				</a>
+			</li>
+			<li class="nav-item mt-auto mb-5 d-md-none">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Log in
+				</a>
+			</li>
+		</ul>
+	</div>
+	<ul class="navbar-nav d-none d-md-block">
+		<li class="nav-item">
+			<a class="nav-item nav-link py-0" href="#">
+				<img class="navbar__img"
+				     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+				     alt="temp_icon">
+				Log in
+			</a>
+		</li>
+	</ul>
+</nav>
+
+<!-- Page Content -->
+<div class="container text-light">
+
+	<div class="px-3 row align-items-center">
+		<h2><img src="assets/item.png" alt="" class="rounded mr-2">Some long item name that wraps around at
+			mobile width</h2>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-6 col-xl-3 pr-lg-0 d-flex flex-column my-2">
+			<p class="h4">Info</p>
+			<div class="rounded container border d-flex flex-column flex-fill">
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Category
+					</div>
+					<div class="col-7 text-right">
+						Mini
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Rarity
+					</div>
+					<div class="col-7 text-right">
+						Legendary
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Level
+					</div>
+					<div class="col-7 text-right">
+						80
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Buy price
+					</div>
+					<div class="col-7 text-right">
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Sell price
+					</div>
+					<div class="col-7 text-right">
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Profit
+					</div>
+					<div class="col-7 text-right">
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						ROI
+					</div>
+					<div class="col-7 text-right">
+						50%
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Demand
+					</div>
+					<div class="col-7 text-right">
+						6854368
+					</div>
+				</div>
+				<div class="row flex-fill">
+					<div class="col-5 text-left">
+						Supply
+					</div>
+					<div class="col-7 text-right">
+						56874
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-6 col-xl-3 pl-lg-0 d-flex flex-column my-2">
+			<p class="h4">Invest</p>
+			<div class="rounded container border d-flex flex-column flex-fill">
+				<div class="row flex-fill align-items-center my-1">
+					<div class="col-5 text-left">
+						Quantity
+					</div>
+					<div class="col-7 text-right px-1">
+						<label for="investmentQuantity" class="sr-only">Investment Quantity</label>
+						<input id="investmentQuantity" type="text" class="form-control text-center px-1 py-1" placeholder="0">
+					</div>
+				</div>
+				<div class="row flex-fill align-items-center my-1">
+					<div class="col-5 text-left">
+						<p class="my-0">Price</p>
+					</div>
+					<div class="col-7 text-right px-1">
+						<label for="investmentPrice" class="sr-only">Investment Price</label>
+						<input id="investmentPrice" type="text" class="form-control text-center px-1 py-1" placeholder="0">
+					</div>
+				</div>
+				<div class="row flex-fill align-items-center my-1">
+					<div class="col-5 text-left">
+						<p class="my-0">
+							Category
+						</p>
+					</div>
+					<div class="col-7 px-1">
+						<label class="sr-only" for="investmentCategory">Category</label>
+						<select id="investmentCategory" class="text-center form-control py-1 px-1">
+							<option selected>None</option>
+							<option>New</option>
+							<option>Custom2</option>
+							<option>Custom3</option>
+						</select>
+					</div>
+				</div>
+				<div class="row flex-fill align-items-center my-1">
+					<div class="col-5 text-left">
+						Date
+					</div>
+						<div class="col-7 text-right px-1">
+							<label for="investmentDate" class="sr-only">Investment Date</label>
+							<input id="investmentDate" type="text" class="form-control text-center px-1 py-1" placeholder="Calendar here">
+						</div>
+				</div>
+				<div class="row flex-fill justify-content-center my-1">
+					<div class="col-7 text-left">
+						<button type="button" class="btn btn-warning w-100">Invest!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-6 col-xl-3 table-responsive pr-0 text-center my-2">
+			<table class="table table-hover table-sm table-dark table-borderless table--scrollable w-100 mb-0 border"
+			       id="buyTable">
+				<thead>
+				<tr>
+					<th scope="col">Buy</th>
+					<th scope="col">Demand</th>
+					<th scope="col"><i class="fa fa-user-o" aria-hidden="true"></i></th>
+				</tr>
+				</thead>
+				<tbody class="border">
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-lg-6 col-xl-3 table-responsive pr-0 text-center my-2">
+			<table class="table table-hover table-sm table-dark table-borderless table--scrollable w-100 mb-0 border"
+			       id="sellTable">
+				<thead>
+				<tr>
+					<th scope="col">Sell</th>
+					<th scope="col">Supply</th>
+					<th scope="col"><i class="fa fa-user-o" aria-hidden="true"></i></th>
+				</tr>
+				</thead>
+				<tbody class="border">
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				<tr>
+					<td>
+						48<img src="assets/g.png" alt="" class="__currency-image">
+						84<img src="assets/s.png" alt="" class="__currency-image">
+						68<img src="assets/c.png" alt="" class="__currency-image">
+					</td>
+					<td>15638</td>
+					<td>52</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<img src="assets/graph.png" class="img-fluid">
+		</div>
+	</div>
+
+</div>
+
+
+<!-- Footer -->
+<footer class="footer--sticky-bottom py-1 bg-dark mt-auto">
+	<div class="container-fluid d-flex">
+		<div class="flex-fill">
+			<p class="m-0 text-left text-white">Images copyright of Anet</p>
+		</div>
+		<div class="">
+			<p class="m-0 text-right text-white">Made by me</p>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/e5eb0c094d.js"></script>
+<script type="text/javascript">
+    function makeTableScroll() {
+        // Constant retrieved from server-side via JSP
+        let maxRows = 8;
+
+        let table = document.getElementById('buyTable');
+        let wrapper = table.parentNode;
+        let rowsInTable = table.rows.length;
+        let height = 0;
+        if (rowsInTable > maxRows) {
+            for (let i = 0; i < maxRows; i++) {
+                height += table.rows[i].clientHeight;
+            }
+            wrapper.style.height = height + "px";
+        }
+
+        table = document.getElementById('sellTable');
+        wrapper = table.parentNode;
+        rowsInTable = table.rows.length;
+        height = 0;
+        if (rowsInTable > maxRows) {
+            for (let i = 0; i < maxRows; i++) {
+                height += table.rows[i].clientHeight;
+            }
+            wrapper.style.height = height + "px";
+        }
+    }
+</script>
+
+</body>
+
+</html>
