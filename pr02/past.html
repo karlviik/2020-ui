@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Home page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/cc3aa2ce0e.js"></script>
+</head>
+
+<body class="bg-dark">
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#">Site title</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+	        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav navbar-nav--fullscreen navbar-nav--abs-center-x d-flex justify-content-center align-items-center">
+			<li class="nav-item my-3 active mt-auto">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Home
+					<span class="sr-only">(current)</span>
+				</a>
+			</li>
+			<li class="nav-item my-3 align-bottom">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Trade Post
+				</a>
+			</li>
+			<li class="nav-item my-3">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Investments
+				</a>
+			</li>
+			<li class="nav-item my-3">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Past Investments
+				</a>
+			</li>
+			<li class="nav-item mt-auto mb-5 d-md-none">
+				<a class="nav-link" href="#">
+					<img class="navbar__img"
+					     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+					     alt="temp_icon">
+					Log in
+				</a>
+			</li>
+		</ul>
+	</div>
+	<ul class="navbar-nav d-none d-md-block">
+		<li class="nav-item">
+			<a class="nav-item nav-link py-0" href="#">
+				<img class="navbar__img"
+				     src="https://render.guildwars2.com/file/943538394A94A491C8632FBEF6203C2013443555/102478.png"
+				     alt="temp_icon">
+				Log in
+			</a>
+		</li>
+	</ul>
+</nav>
+
+<!-- Header -->
+<header class="mb-3 mt-5 pt-5 pb-2 text-warning">
+	<div class="container d-flex justify-content-center">
+		<div class="row align-items-center">
+			<h1 class="display-4 text-center">Past investments</h1>
+		</div>
+	</div>
+</header>
+
+<!-- Page Content -->
+<div class="container text-light">
+
+	<div class="row justify-content-center my-3">
+		<div class="col-md-5 col-lg-4 mb-2 mb-0-md">
+			<div class="input-group">
+				<label for="searchBox" class="col-4 col-form-label">Search</label>
+				<div class="col-8">
+					<input id="searchBox" type="text" class="form-control" placeholder="Search...">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-5 col-lg-4">
+			<div class="input-group">
+				<label class="col-4 col-form-label" for="category">Category</label>
+				<div class="col-8">
+					<select id="category" class="text-center form-control">
+						<option selected>None</option>
+						<option>New</option>
+						<option>Custom2</option>
+						<option>Custom3</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col col-6 col-md-3 h5">
+			<div class="row justify-content-center">
+				Invested amount
+			</div>
+			<div class="row justify-content-center">
+				48<img src="assets/g.png" alt="" class="__big-currency-image">
+				84<img src="assets/s.png" alt="" class="__big-currency-image">
+				68<img src="assets/c.png" alt="" class="__big-currency-image">
+			</div>
+		</div>
+		<div class="col col-6 col-md-3 h5">
+			<div class="row justify-content-center">
+				Total value
+			</div>
+			<div class="row justify-content-center">
+				48<img src="assets/g.png" alt="" class="__big-currency-image">
+				84<img src="assets/s.png" alt="" class="__big-currency-image">
+				68<img src="assets/c.png" alt="" class="__big-currency-image">
+			</div>
+		</div>
+		<div class="col col-6 col-md-3 h5">
+			<div class="row justify-content-center">
+				Total profit
+			</div>
+			<div class="row justify-content-center">
+				48<img src="assets/g.png" alt="" class="__big-currency-image">
+				84<img src="assets/s.png" alt="" class="__big-currency-image">
+				68<img src="assets/c.png" alt="" class="__big-currency-image">
+			</div>
+		</div>
+		<div class="col col-6 col-md-3 h5">
+			<div class="row justify-content-center">
+				Total ROI
+			</div>
+			<div class="row justify-content-center">
+				23%
+			</div>
+		</div>
+	</div>
+
+	<!-- Items -->
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-up"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-down"></i>
+				</div>
+			</div>
+			<div class="row d-none">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-down"></i>
+				</div>
+			</div>
+			<div class="row d-none">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-down"></i>
+				</div>
+			</div>
+			<div class="row d-none">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-down"></i>
+				</div>
+			</div>
+			<div class="row d-none">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-down"></i>
+				</div>
+			</div>
+			<div class="row d-none">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row my-3">
+		<div class="col border rounded text-nowrap flex-nowrap">
+			<div class="row border-bottom bg-warning text-dark flex-nowrap">
+				<div class="col pl-0"><img src="assets/item.png" alt="" class="rounded mr-2 __item-image">Item name here</div>
+				<div class="col px-1">
+					Invested:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block px-1 no-wrap">
+					Value:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col d-none d-lg-block">
+					Profit:
+					48<img src="assets/g.png" alt="" class="__currency-image">
+					84<img src="assets/s.png" alt="" class="__currency-image">
+					68<img src="assets/c.png" alt="" class="__currency-image">
+				</div>
+				<div class="col col col-lg-1 px-0 text-center">
+					ROI: 22%
+				</div>
+				<div class="col col-1 px-0 d-flex justify-content-center align-items-center">
+					<i class="fas fa-angle-double-down"></i>
+				</div>
+			</div>
+			<div class="row d-none">
+				<div class="col px-0 table-responsive">
+					<table class="table table-sm table-dark text-center mb-0">
+						<thead class="h6 small">
+						<tr>
+							<th scope="col">Bought date</th>
+							<th scope="col">Sold date</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Investment price</th>
+							<th scope="col">Value</th>
+							<th scope="col">Profit per</th>
+							<th scope="col">Profit total</th>
+							<th scope="col">ROI</th>
+							<th scope="col"></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="small">
+							<td class="">15/54/2054</td>
+							<td class="">15/46/4621</td>
+							<td class="">745</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">
+								48<img src="assets/g.png" alt="" class="__currency-image">
+								84<img src="assets/s.png" alt="" class="__currency-image">
+								68<img src="assets/c.png" alt="" class="__currency-image">
+							</td>
+							<td class="">55%</td>
+							<td class=""><i class="fas fa-trash-alt"></i></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+<!-- Footer -->
+<footer class="footer--sticky-bottom py-1 bg-dark mt-auto">
+	<div class="container-fluid d-flex">
+		<div class="flex-fill">
+			<p class="m-0 text-left text-white">Images copyright of Anet</p>
+		</div>
+		<div class="">
+			<p class="m-0 text-right text-white">Made by me</p>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
