@@ -1,0 +1,8 @@
+[
+	name, type, level, rarity, id, icon, buyprice, sellprice, profit, ROI, demand, supply
+	{}
+]
+
+buy, demand, people
+
+sell, demand, people
