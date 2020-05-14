@@ -3,6 +3,10 @@ import itemsList from "@/api/data/items_list.json"
 import itemsObj from "@/api/data/items_obj.json"
 import listings from "@/api/data/listings.json"
 import categories from "@/api/data/investmentCategories.json"
+import historicData from "@/api/data/historicData.json"
+import historicGemPrices from "@/api/data/historicGemPrices.json"
+import supplyVsDemand from "@/api/data/supplyVsDemand.json"
+import itemTypes from "@/api/data/itemTypes.json"
 
 export default {
 	getAllItems() {
@@ -19,6 +23,18 @@ export default {
 	},
 	getCategories() {
 		return categories
+	},
+	getItemHistoricData(itemId) {
+		return historicData[itemId]
+	},
+	getHistoricGemPrices() {
+		return historicGemPrices
+	},
+	getSupplyVsDemand() {
+		return supplyVsDemand
+	},
+	getItemTypes() {
+		return itemTypes
 	}
 }
 
@@ -45,7 +61,7 @@ function paramsFilterThing(itemInfoObj, params) {
 		if (itemInfoObj["buy"] > params["maxBuy"]) return false
 	}
 	if (params.hasOwnProperty("minSell") && params["minSell"] != null && !isNaN(params["minSell"]) && typeof params["minSell"] === 'number') {
-		if (itemInfoObj["sell"] < params["minSell"]) return false
+		if (itemInfoObj["sell"] < params["m inSell"]) return false
 	}
 	if (params.hasOwnProperty("maxSell") && params["maxSell"] != null && !isNaN(params["maxSell"]) && typeof params["maxSell"] === 'number') {
 		if (itemInfoObj["sell"] > params["maxSell"]) return false

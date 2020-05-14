@@ -1,4 +1,3 @@
-
 export default {
 	// eslint-disable-next-line no-unused-vars
 	priceFormatter(coins, color) {
@@ -28,6 +27,25 @@ export default {
 
 	profitCalculator(buy, sell) {
 		return Math.round(sell * 0.85 - buy)
+	},
+	currencyFormatter(coins) {
+		return this.currencyFormatterBool(coins, false)
+	},
+	currencyFormatterBool(coins, hideIfBig) {
+		const copper = Math.floor(coins) % 100;
+		const silver = Math.floor(coins / 100) % 100;
+		const gold = Math.floor(coins / 10000);
+		const formattedCoins = [];
+		if (gold) {
+			formattedCoins.push('<span class="gold">' + gold + '</span><img class="--coin" src="https://render.guildwars2.com/file/090A980A96D39FD36FBB004903644C6DBEFB1FFB/156904.png" alt="gold">');
+		}
+		if (silver || gold) {
+			formattedCoins.push('<span class="silver">' + silver + '</span><img class="--coin" src="https://render.guildwars2.com/file/E5A2197D78ECE4AE0349C8B3710D033D22DB0DA6/156907.png" alt="silver">');
+		}
+		if (!gold || !hideIfBig) {
+			formattedCoins.push('<span class="copper">' + copper + '</span><img class="--coin" src="https://render.guildwars2.com/file/6CF8F96A3299CFC75D5CC90617C3C70331A1EF0E/156902.png" alt="copper">');
+		}
+		return formattedCoins.join(' ') + '　　'
 	}
 }
 

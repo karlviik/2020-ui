@@ -1,0 +1,77 @@
+[
+  {
+    "id": "A",
+    "value": 20172,
+    "name": "Weapon"
+  },
+  {
+    "id": "B",
+    "value": 10327,
+    "name": "Consumable"
+  },
+  {
+    "id": "C",
+    "value": 370,
+    "name": "Back"
+  },
+  {
+    "id": "D",
+    "value": 12964,
+    "name": "Armor"
+  },
+  {
+    "id": "E",
+    "value": 2267,
+    "name": "Trophy"
+  },
+  {
+    "id": "F",
+    "value": 5039,
+    "name": "Container"
+  },
+  {
+    "id": "G",
+    "value": 979,
+    "name": "Gizmo"
+  },
+  {
+    "id": "H",
+    "value": 138,
+    "name": "Bag"
+  },
+  {
+    "id": "I",
+    "value": 2114,
+    "name": "CraftingMaterial"
+  },
+  {
+    "id": "J",
+    "value": 2140,
+    "name": "Trinket"
+  },
+  {
+    "id": "K",
+    "value": 17,
+    "name": "Tool"
+  },
+  {
+    "id": "L",
+    "value": 727,
+    "name": "MiniPet"
+  },
+  {
+    "id": "M",
+    "value": 916,
+    "name": "UpgradeComponent"
+  },
+  {
+    "id": "N",
+    "value": 143,
+    "name": "Gathering"
+  },
+  {
+    "id": "O",
+    "value": 1,
+    "name": "Key"
+  }
+]

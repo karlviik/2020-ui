@@ -6,6 +6,7 @@ import Investments from "@/views/Investments";
 import PastInvestments from "@/views/PastInvestments";
 import TradePost from "@/views/TradePost";
 import Item from "@/views/Item"
+import Statistics from "@/views/Statistics";
 
 Vue.use(VueRouter)
 
@@ -40,7 +41,12 @@ const routes = [
         name: 'Item',
         component: Item,
         props: true
-    }
+    },
+    {
+        path: '/statistics',
+        name: 'Statistics',
+        component: Statistics
+    },
 ]
 
 const router = new VueRouter({

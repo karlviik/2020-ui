@@ -128,7 +128,7 @@
 				</b-table>
 
 			</div>
-			<div class="col-lg-6 col-xl-3 pr-xl-0 text-center my-2">
+			<div class="col-lg-6 col-xl-3 text-center my-2">
 				<b-table
 						sticky-header="400px"
 						hover
@@ -153,11 +153,12 @@
 			</div>
 
 		</b-row>
-		<div class="row">
-			<div class="col-12">
-				<img src="assets/graph.png" class="img-fluid" alt="">
-			</div>
-		</div>
+		<b-row class="row pb-3 pt-2">
+			<item-price-chart :id="id" class="col-12"/>
+		</b-row>
+		<b-row class="row pb-3 pt-2">
+			<item-cumulative-chart :id="id"  class="col-12"/>
+		</b-row>
 
 	</b-container>
 </template>
@@ -165,9 +166,12 @@
 <script>
 	import api from "@/api"
 	import utils from "@/utils"
+	import ItemPriceChart from "@/components/ItemPriceChart";
+	import ItemCumulativeChart from "@/components/ItemCumulativeChart";
 
 	export default {
 		name: "Item",
+		components: {ItemCumulativeChart, ItemPriceChart},
 		data() {
 			return {
 				item: {
@@ -189,7 +193,9 @@
 					category: "",
 					date: new Date().toISOString().slice(0, 10)
 				},
-				itemListings: [],
+				itemListings: {
+
+				},
 				investmentCategoryOptions: Array(String),
 				buyFields: [
 					{key: 'unit_price', label: 'Buy'},
