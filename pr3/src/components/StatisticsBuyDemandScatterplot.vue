@@ -39,8 +39,7 @@
 						startOnTick: true,
 						endOnTick: true,
 						showLastLabel: true,
-						min: 1,
-						tickAmount: 0
+						min: 1
 					},
 					yAxis: {
 						type: "logarithmic",
