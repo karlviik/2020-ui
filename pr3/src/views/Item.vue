@@ -154,10 +154,10 @@
 
 		</b-row>
 		<b-row class="row pb-3 pt-2">
-			<item-price-chart :id="id" class="col-12"/>
+			<item-price-chart :id="id.toString()" class="col-12"/>
 		</b-row>
 		<b-row class="row pb-3 pt-2">
-			<item-cumulative-chart :id="id"  class="col-12"/>
+			<item-cumulative-chart :id="id.toString()"  class="col-12"/>
 		</b-row>
 
 	</b-container>
